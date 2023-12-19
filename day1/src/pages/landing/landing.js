@@ -1,6 +1,6 @@
 const Landing = (props) => {
   return (
-    <p>this is Landing page</p>
+    <p className="p-12">this is Landing page</p>
   );
 }
 export default Landing;

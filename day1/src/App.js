@@ -4,6 +4,8 @@ import Landing from "./pages/landing/landing";
 import List from "./pages/list/list";
 import NotFound from "./components/notFound/notFound.js";
 import Individual from "./pages/list/individual/individual.js";
+import TabContainer from "./pages/tab/tab.js";
+import Calculator from "./pages/calculator/calculator.js";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Landing />} />
         <Route path='/list' element={<List />} />
+        <Route path='/calc' element={<Calculator />} />
+        <Route path='/tab' element={<TabContainer />} />
         <Route path='/list/:id' element={<Individual />} />
         <Route path='/*' element={<NotFound />} />
       </Routes>
@@ -26,3 +30,5 @@ export default App;
 // Django
 // JS - react, next, Angular, Vue, react-native
 // Dart (JS Pytho) Google -> web mobile app => Flutter
+
+// state?? 
