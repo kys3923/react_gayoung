@@ -6,6 +6,7 @@ import NotFound from "./components/notFound/notFound.js";
 import Individual from "./pages/list/individual/individual.js";
 import TabContainer from "./pages/tab/tab.js";
 import Calculator from "./pages/calculator/calculator.js";
+import TodoLanding from "./pages/todo/todoLanding.js";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/list' element={<List />} />
         <Route path='/calc' element={<Calculator />} />
         <Route path='/tab' element={<TabContainer />} />
+        <Route path='/todo' element={<TodoLanding />} />
         <Route path='/list/:id' element={<Individual />} />
         <Route path='/*' element={<NotFound />} />
       </Routes>

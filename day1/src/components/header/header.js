@@ -11,6 +11,7 @@ const Header = () => {
         <li className={listStyle}><a href='/' className={listTextStyle}><MdHome />Home</a></li>
         <li className={listStyle}><a href='/list' className={listTextStyle}><MdList />List</a></li>
         <li className={listStyle}><a href='/tab' className={listTextStyle}><MdList />Tab</a></li>
+        <li className={listStyle}><a href='/todo' className={listTextStyle}><MdList />Todo</a></li>
         <li className={listStyle}><a href='/calc' className={listTextStyle}><MdCalculate />Calculator</a></li>
       </ul>
     </header>
